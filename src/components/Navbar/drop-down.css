@@ -1,0 +1,9 @@
+.drop {
+    display: flex;
+    flex-direction: row-reverse
+}
+.drop select{
+    border: none;
+    width: 12px;
+
+}

@@ -1,0 +1,39 @@
+
+.innovative {
+    width: 100%;
+    padding: 50px;
+}
+.innovative .COL {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50x !important;
+
+}
+.phone{
+    width: 100%;
+    height: 100%;
+}
+.innovative .top-text{
+    text-align: center;
+    padding: 20px;
+}
+.innovative .row{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+.innovative .card{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+.innovative .card .col{
+    text-align: center;
+    
+}
+.innovative p{  
+    color: gray;
+   padding: 10px 0;
+}

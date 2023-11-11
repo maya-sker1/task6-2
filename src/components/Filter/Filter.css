@@ -1,0 +1,50 @@
+.filter
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(189, 189, 189);
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.filter .fi{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.filter .col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.filter .icon{
+    font-size: 50px;
+    padding: 40px;
+}
+
+.filter p{  
+     margin-top: 0;
+    margin-bottom: 0rem;
+}
+.filter h5{
+    display: inline;
+}
+ .card-text{
+    margin: 0px auto;
+}
+.filter .btn{
+    color: #215cba;
+}
+
+.filter img{
+    width: 100px;
+}
+.filter .im{
+    width: 70px;
+    padding: 0px 10px;
+}
+.filter img:hover{
+    transform: scale(0.7);
+
+}

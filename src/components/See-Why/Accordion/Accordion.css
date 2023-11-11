@@ -1,0 +1,40 @@
+
+  .accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+  }
+  .accordion-item {
+    width:  100%;
+    border-bottom: 2px solid rgb(61, 61, 61);
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+  }
+  
+  .accordion-header {
+    width: 500px !important;
+    cursor: pointer;
+  }
+  .accordion p{
+    height: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(252, 252, 252);
+  }
+ 
+  
+  
+  .accordion-content {
+    padding: 10px;
+  }
+
+ 
+
+@media screen  and (max-width:800px){
+  .accordion-item {
+    width: 100%;
+}
+
+}

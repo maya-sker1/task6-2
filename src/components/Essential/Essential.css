@@ -1,0 +1,53 @@
+
+.essential{
+    width: 100%;
+    height: 100%80vh;
+    padding:50px 0 ;
+}
+.essential .top{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+.essential .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+.essential .card{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+ .icons{
+    margin: 0 auto;
+}
+.essential .card .text{
+    width: 100%;
+    text-align: center;
+}
+
+.essential p{  
+     color: gray;
+    padding: 10px 0;
+    font-size: 20px;
+}
+.essential p:hover{
+    color: red;
+}
+ h5{
+    display: inline;
+}
+
+
+ img{
+    width: 100px;
+}
+ 
+.essential img:hover{
+    transform: scale(0.7);
+
+}

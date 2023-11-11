@@ -1,0 +1,44 @@
+#SeeWhy{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-image: url(./image/back.webp) ;
+    padding: 50px  30px 30px 30px;
+
+}
+#SeeWhy  .top{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+}
+#SeeWhy  .top p{
+    padding: 10px;
+    color: rgb(92, 91, 91);
+}
+#SeeWhy .row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 20px;
+}
+#SeeWhy .col {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+#SeeWhy img{
+    width: 100%;
+}
+@media screen  and (max-width:900px){
+    #SeeWhy .row {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 20px;
+    }
+}
