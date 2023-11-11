@@ -1,6 +1,8 @@
 import React from 'react';
 import './Subscrib.css';
 import { Link } from 'react-router-dom';
+import { FaArrowLeft } from 'react-icons/fa';
+
 function Subscrib() {
   return (
     <section id="SUBSCRIBE">
@@ -13,7 +15,7 @@ function Subscrib() {
             <div/>
 
             <div className="wrapper">
-                 <input placeholder='Enter your email id '/><button className=" hov"><i class="fa-solid fa-arrow-right p-1"></i></button>
+                 <input placeholder='Enter your email id '/><button className=" hov"><FaArrowLeft /></button>
             </div>
 
             <div className="row">

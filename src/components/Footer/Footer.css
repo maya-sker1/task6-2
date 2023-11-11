@@ -9,6 +9,8 @@
     position: fixed;  
     bottom: 10%;
     right: 1%;      
+    color: white;
+    font-size: 20px;
   }
 #fixed-end {
     background-color: rgb(250, 39, 39);
@@ -18,12 +20,14 @@
     color: #fff;
     z-index: 1000;
     position: fixed;
+ 
   }
   
 #fixed-end .end{
     padding: 10px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 5px;
   }
 #fixed-end p{
@@ -49,24 +53,14 @@ color: rgb(0, 0, 0) !important;
 transform: translateY(3px);
 
 }
-@media screen  and (max-width:900px){
+@media screen  and (max-width:600px){
    
       #fixed-end {
-        background-color: rgb(250, 39, 39);
-        width: 100%;
-        height: 110px;
-        bottom: 0px;
-        color: #fff;
-        z-index: 1000;
-        position: fixed;
+      display: none;
       }
-    #fixed-end .end{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        gap: 10px;
+ 
+      #fixed-end .fixed-footer{
+        display: none;
       }
-
+    
 }

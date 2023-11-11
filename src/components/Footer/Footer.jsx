@@ -1,11 +1,12 @@
 import React from 'react';
 import './Footer.css';
 import { Link } from 'react-router-dom';
+import { FaArrowUp } from 'react-icons/fa';
 
 function Footer() {
   return (
       <div id="fixed-end">
-        <Link href="#navbar"> <button class="button fixed-footer hov"><i class="fa-solid fa-arrow-up up p-1 text-light"></i></button></Link>
+        <Link href="#navbar"> <button class="button fixed-footer hov"><FaArrowUp /></button></Link>
 
         <div className="bottom">
           <div className="end">
